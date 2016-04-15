@@ -1,12 +1,11 @@
-# Data Coolection and Persistence
+# Data Collection and Persistence
 
-作業目的:瞭解資料分析的第一個階段，如何永久化保存資料(Persistence)
+* 作業目的:瞭解資料分析的第一個階段，如何永久化保存資料(Persistence)  
+* 作業目標:對於Twitter的資料進行蒐集，所蒐集到的資料的純文字檔需大於1G(JSON或CSV任一格式達到1G)
 
-作業目標:對於Twitter的資料進行蒐集，所蒐集到的資料的純文字檔需大於1G(JSON或CSV任一格式達到1G)
--------------------
 ## Data Format
--------------------
-###JSON的欄位架構
+
+### JSON的欄位架構
     {
         "user_lang": "es", 
         "user_id_str": "2566312439", 
@@ -40,15 +39,20 @@
         "user_total_tweets": 5174
     }
 
-###CSV的Fields
+### CSV的Fields
 
-['id', 'created_at', 'tweet_text','retweet_count','user_id', 'user_name', 'user_created_at','user_location','user_screen_name','user_friends_count' , 
-'user_followers_count','user_favourites_count','user_total_tweets','user_listed_count','user_profile_sidebar_fill_color','user_profile_sidebar_border_color',
-'user_profile_image_url','user_description','user_lang','user_time_zone','user_profile_link_color','user_profile_background_tile','user_id_str','user_default_profile',
-'user_contributors_enabled','user_utc_offset','user_profile_use_background_image','user_profile_text_color','user_profile_background_color','url']
+    ['id', 'created_at', 'tweet_text','retweet_count','user_id', 'user_name',     
+    'user_created_at','user_location','user_screen_name','user_friends_count' , 
+     'user_followers_count','user_favourites_count','user_total_tweets','user_listed_count',
+     'user_profile_sidebar_fill_color','user_profile_sidebar_border_color',
+     'user_profile_image_url','user_description','user_lang','user_time_zone',
+     'user_profile_link_colo,'user_profile_background_tile','user_id_str',
+     'user_default_profile','user_contributors_enabled','user_utc_offset',
+     'user_profile_use_background_image','user_profile_text_color',
+     'user_profile_background_color','url']
 
 ## Data Sources
--------------------
-*API來源:The Twitter Search API 
-*內容主題:金融&運動相關貼文
-*下的查詢字串:q="fintech","mlb","nba" 
+
+* API來源:The Twitter Search API 
+* 內容主題:金融&運動相關貼文
+* 下的查詢字串:q="fintech","mlb","nba" 
