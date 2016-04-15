@@ -49,7 +49,6 @@
 
 ## Data Sources
 -------------------
-
 *API來源:The Twitter Search API 
 *內容主題:金融&運動相關貼文
 *下的查詢字串:q="fintech","mlb","nba" 
