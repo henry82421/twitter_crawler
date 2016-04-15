@@ -1,12 +1,12 @@
 # Data Coolection and Persistence
 
-§@·~¥Øªº:ÁA¸Ñ¸ê®Æ¤ÀªRªº²Ä¤@­Ó¶¥¬q¡A¦p¦ó¥Ã¤[¤Æ«O¦s¸ê®Æ(Persistence)
+ä½œæ¥­ç›®çš„:ç­è§£è³‡æ–™åˆ†æçš„ç¬¬ä¸€å€‹éšæ®µï¼Œå¦‚ä½•æ°¸ä¹…åŒ–ä¿å­˜è³‡æ–™(Persistence)
 
-§@·~¥Ø¼Ğ:¹ï©óTwitterªº¸ê®Æ¶i¦æ»`¶°¡A©Ò»`¶°¨ìªº¸ê®Æªº¯Â¤å¦rÀÉ»İ¤j©ó1G(JSON©ÎCSV¥ô¤@®æ¦¡¹F¨ì1G)
+ä½œæ¥­ç›®æ¨™:å°æ–¼Twitterçš„è³‡æ–™é€²è¡Œè’é›†ï¼Œæ‰€è’é›†åˆ°çš„è³‡æ–™çš„ç´”æ–‡å­—æª”éœ€å¤§æ–¼1G(JSONæˆ–CSVä»»ä¸€æ ¼å¼é”åˆ°1G)
 -------------------
 ## Data Format
 -------------------
-###JSONªºÄæ¦ì¬[ºc
+###JSONçš„æ¬„ä½æ¶æ§‹
     {
         "user_lang": "es", 
         "user_id_str": "2566312439", 
@@ -24,7 +24,7 @@
         "user_location": "", 
         "user_favourites_count": 905, 
         "retweet_count": 1, 
-        "user_name": "Gonzalo Villalba", 
+        "user_name": "Gonzalo Villalba",
         "user_profile_image_url": "http://pbs.twimg.com/profile_images/711385903571341312/ZPltaV1S_normal.jpg", 
         "user_followers_count": 202, 
         "user_profile_background_color": "123D52", 
@@ -40,7 +40,7 @@
         "user_total_tweets": 5174
     }
 
-###CSVªºFields
+###CSVçš„Fields
 
 ['id', 'created_at', 'tweet_text','retweet_count','user_id', 'user_name', 'user_created_at','user_location','user_screen_name','user_friends_count' , 
 'user_followers_count','user_favourites_count','user_total_tweets','user_listed_count','user_profile_sidebar_fill_color','user_profile_sidebar_border_color',
@@ -50,6 +50,6 @@
 ## Data Sources
 -------------------
 
-*API¨Ó·½:The Twitter Search API 
-*¤º®e¥DÃD:ª÷¿Ä&¹B°Ê¬ÛÃö¶K¤å
-*¤Uªº¬d¸ß¦r¦ê:q="fintech","mlb","nba" 
+*APIä¾†æº:The Twitter Search API 
+*å…§å®¹ä¸»é¡Œ:é‡‘è&é‹å‹•ç›¸é—œè²¼æ–‡
+*ä¸‹çš„æŸ¥è©¢å­—ä¸²:q="fintech","mlb","nba" 
